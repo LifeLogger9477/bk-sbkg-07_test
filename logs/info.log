@@ -76,3 +76,65 @@
 [2024-01-05 15:29:15.283] [INFO ] [main] org.springframework.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
 [2024-01-05 15:29:15.286] [INFO ] [main] org.springframework.test.web.servlet.TestDispatcherServlet Completed initialization in 1 ms
 [2024-01-05 15:29:15.316] [INFO ] [main] me.sbkg.test.controller.ProductControllerTest Started ProductControllerTest in 2.22 seconds (process running for 3.196)
+[2024-01-05 16:14:40.020] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 Starting ProductRepositoryTestByH2 using Java 17.0.8 with PID 8928 (started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\07_test)
+[2024-01-05 16:14:40.022] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 No active profile set, falling back to 1 default profile: "default"
+[2024-01-05 16:14:40.446] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-01-05 16:14:40.508] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+[2024-01-05 16:14:40.563] [INFO ] [main] org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor Replacing 'dataSource' DataSource bean with embedded version
+[2024-01-05 16:14:40.797] [INFO ] [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory Starting embedded database: url='jdbc:h2:mem:4d0b71c8-e7cf-474d-82bd-cfb49d9738d6;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2024-01-05 16:14:41.069] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-01-05 16:14:41.139] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 6.4.1.Final
+[2024-01-05 16:14:41.176] [INFO ] [main] org.hibernate.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+[2024-01-05 16:14:41.417] [INFO ] [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-01-05 16:14:42.278] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-01-05 16:14:42.281] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:14:42.572] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 Started ProductRepositoryTestByH2 in 3.134 seconds (process running for 4.238)
+[2024-01-05 16:14:43.147] [WARN ] [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper SQL Error: 42104, SQLState: 42S04
+[2024-01-05 16:14:43.147] [ERROR] [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper Table "PRODUCT" not found (this database is empty); SQL statement:
+insert into product (created_at,name,price,stock,updated_at,number) values (?,?,?,?,?,default) [42104-224]
+[2024-01-05 16:14:43.181] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:15:08.905] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 Starting ProductRepositoryTestByH2 using Java 17.0.8 with PID 17360 (started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\07_test)
+[2024-01-05 16:15:08.907] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 No active profile set, falling back to 1 default profile: "default"
+[2024-01-05 16:15:09.229] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-01-05 16:15:09.281] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+[2024-01-05 16:15:09.328] [INFO ] [main] org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor Replacing 'dataSource' DataSource bean with embedded version
+[2024-01-05 16:15:09.517] [INFO ] [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory Starting embedded database: url='jdbc:h2:mem:c228a090-bf0d-4627-a1b1-420f6ea14df6;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2024-01-05 16:15:09.792] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-01-05 16:15:09.855] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 6.4.1.Final
+[2024-01-05 16:15:09.890] [INFO ] [main] org.hibernate.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+[2024-01-05 16:15:10.112] [INFO ] [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-01-05 16:15:10.977] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-01-05 16:15:11.038] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:15:11.361] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 Started ProductRepositoryTestByH2 in 2.883 seconds (process running for 3.863)
+[2024-01-05 16:15:11.903] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:17:52.188] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 Starting ProductRepositoryTestByH2 using Java 17.0.8 with PID 16996 (started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\07_test)
+[2024-01-05 16:17:52.190] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 No active profile set, falling back to 1 default profile: "default"
+[2024-01-05 16:17:52.559] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-01-05 16:17:52.616] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+[2024-01-05 16:17:52.666] [INFO ] [main] org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor Replacing 'dataSource' DataSource bean with embedded version
+[2024-01-05 16:17:52.883] [INFO ] [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory Starting embedded database: url='jdbc:h2:mem:82f34369-ca25-48c6-8040-f283d9020981;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2024-01-05 16:17:53.168] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-01-05 16:17:53.230] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 6.4.1.Final
+[2024-01-05 16:17:53.266] [INFO ] [main] org.hibernate.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+[2024-01-05 16:17:53.477] [INFO ] [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-01-05 16:17:54.266] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-01-05 16:17:54.312] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:17:54.592] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 Started ProductRepositoryTestByH2 in 2.851 seconds (process running for 3.803)
+[2024-01-05 16:17:55.106] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:33:40.242] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 Starting ProductRepositoryTestByH2 using Java 17.0.8 with PID 8628 (started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\07_test)
+[2024-01-05 16:33:40.244] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 No active profile set, falling back to 1 default profile: "default"
+[2024-01-05 16:33:40.564] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-01-05 16:33:40.619] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+[2024-01-05 16:33:40.961] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-01-05 16:33:41.024] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 6.4.1.Final
+[2024-01-05 16:33:41.058] [INFO ] [main] org.hibernate.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+[2024-01-05 16:33:41.337] [INFO ] [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-01-05 16:33:41.371] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-01-05 16:33:41.525] [INFO ] [main] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection org.mariadb.jdbc.Connection@1eca3ea7
+[2024-01-05 16:33:41.527] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-01-05 16:33:42.343] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-01-05 16:33:42.408] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:33:42.689] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTestByH2 Started ProductRepositoryTestByH2 in 2.889 seconds (process running for 3.871)
+[2024-01-05 16:33:43.243] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:33:43.244] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-01-05 16:33:43.247] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
