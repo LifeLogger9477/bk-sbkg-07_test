@@ -138,3 +138,96 @@ insert into product (created_at,name,price,stock,updated_at,number) values (?,?,
 [2024-01-05 16:33:43.243] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
 [2024-01-05 16:33:43.244] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
 [2024-01-05 16:33:43.247] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-01-05 16:39:09.213] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest Starting ProductRepositoryTest using Java 17.0.8 with PID 15760 (started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\07_test)
+[2024-01-05 16:39:09.215] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2024-01-05 16:39:09.545] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-01-05 16:39:09.604] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+[2024-01-05 16:39:09.962] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-01-05 16:39:10.043] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 6.4.1.Final
+[2024-01-05 16:39:10.095] [INFO ] [main] org.hibernate.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+[2024-01-05 16:39:10.435] [INFO ] [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-01-05 16:39:10.467] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-01-05 16:39:10.580] [INFO ] [main] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6d5f4900
+[2024-01-05 16:39:10.582] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-01-05 16:39:11.385] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-01-05 16:39:11.424] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:39:11.694] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest Started ProductRepositoryTest in 2.922 seconds (process running for 3.887)
+[2024-01-05 16:39:12.194] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:39:12.195] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-01-05 16:39:12.198] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-01-05 16:45:53.931] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 Starting ProductRepositoryTest2 using Java 17.0.8 with PID 4432 (started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\07_test)
+[2024-01-05 16:45:53.932] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 No active profile set, falling back to 1 default profile: "default"
+[2024-01-05 16:45:54.524] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-01-05 16:45:54.577] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+[2024-01-05 16:45:54.971] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-01-05 16:45:55.029] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 6.4.1.Final
+[2024-01-05 16:45:55.065] [INFO ] [main] org.hibernate.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+[2024-01-05 16:45:55.334] [INFO ] [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-01-05 16:45:55.366] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-01-05 16:45:55.472] [INFO ] [main] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection org.mariadb.jdbc.Connection@790ac3e0
+[2024-01-05 16:45:55.474] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-01-05 16:45:56.272] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-01-05 16:45:56.312] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:45:56.564] [ERROR] [main] org.apache.catalina.core.AprLifecycleListener An incompatible version [1.2.32] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+[2024-01-05 16:45:56.655] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-01-05 16:45:57.054] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 Started ProductRepositoryTest2 in 3.454 seconds (process running for 4.481)
+[2024-01-05 16:45:57.735] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:45:57.737] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-01-05 16:45:57.740] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-01-05 16:48:12.140] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 Starting ProductRepositoryTest2 using Java 17.0.8 with PID 7448 (started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\07_test)
+[2024-01-05 16:48:12.141] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 No active profile set, falling back to 1 default profile: "default"
+[2024-01-05 16:48:12.703] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-01-05 16:48:12.754] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+[2024-01-05 16:48:13.144] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-01-05 16:48:13.195] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 6.4.1.Final
+[2024-01-05 16:48:13.232] [INFO ] [main] org.hibernate.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+[2024-01-05 16:48:13.484] [INFO ] [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-01-05 16:48:13.510] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-01-05 16:48:13.616] [INFO ] [main] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection org.mariadb.jdbc.Connection@5dfc2a4
+[2024-01-05 16:48:13.618] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-01-05 16:48:14.386] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-01-05 16:48:14.423] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:48:14.661] [ERROR] [main] org.apache.catalina.core.AprLifecycleListener An incompatible version [1.2.32] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+[2024-01-05 16:48:14.750] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-01-05 16:48:15.110] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 Started ProductRepositoryTest2 in 3.318 seconds (process running for 4.398)
+[2024-01-05 16:48:15.747] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:48:15.749] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-01-05 16:48:15.752] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-01-05 16:51:13.442] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 Starting ProductRepositoryTest2 using Java 17.0.8 with PID 17004 (started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\07_test)
+[2024-01-05 16:51:13.443] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 No active profile set, falling back to 1 default profile: "default"
+[2024-01-05 16:51:13.999] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-01-05 16:51:14.052] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+[2024-01-05 16:51:14.440] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-01-05 16:51:14.500] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 6.4.1.Final
+[2024-01-05 16:51:14.534] [INFO ] [main] org.hibernate.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+[2024-01-05 16:51:14.811] [INFO ] [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-01-05 16:51:14.837] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-01-05 16:51:14.940] [INFO ] [main] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection org.mariadb.jdbc.Connection@790ac3e0
+[2024-01-05 16:51:14.943] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-01-05 16:51:15.751] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-01-05 16:51:15.795] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:51:16.041] [ERROR] [main] org.apache.catalina.core.AprLifecycleListener An incompatible version [1.2.32] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+[2024-01-05 16:51:16.129] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-01-05 16:51:16.494] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 Started ProductRepositoryTest2 in 3.38 seconds (process running for 4.425)
+[2024-01-05 16:51:17.136] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:51:17.138] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-01-05 16:51:17.141] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-01-05 16:52:51.088] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 Starting ProductRepositoryTest2 using Java 17.0.8 with PID 16140 (started by LeeMinSoo in F:\_idevRepository\bkRepository\springboot_keyguide\07_test)
+[2024-01-05 16:52:51.090] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 No active profile set, falling back to 1 default profile: "default"
+[2024-01-05 16:52:51.695] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-01-05 16:52:51.762] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+[2024-01-05 16:52:52.211] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-01-05 16:52:52.281] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 6.4.1.Final
+[2024-01-05 16:52:52.319] [INFO ] [main] org.hibernate.cache.internal.RegionFactoryInitiator HHH000026: Second-level cache disabled
+[2024-01-05 16:52:52.598] [INFO ] [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-01-05 16:52:52.628] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-01-05 16:52:52.744] [INFO ] [main] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2c2e3460
+[2024-01-05 16:52:52.745] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-01-05 16:52:53.512] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-01-05 16:52:53.551] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:52:53.800] [ERROR] [main] org.apache.catalina.core.AprLifecycleListener An incompatible version [1.2.32] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+[2024-01-05 16:52:53.881] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-01-05 16:52:54.239] [INFO ] [main] me.sbkg.test.data.repository.ProductRepositoryTest2 Started ProductRepositoryTest2 in 3.504 seconds (process running for 4.503)
+[2024-01-05 16:52:54.887] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-01-05 16:52:54.889] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-01-05 16:52:54.893] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
